@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<HomeScreen />} />
-        <Route path='/game' element={<Game />}></Route>
+        <Route path='/game' element={<Game/>}></Route>
         <Route path='*' element={<Error />} />
       </Routes>
     </div>
