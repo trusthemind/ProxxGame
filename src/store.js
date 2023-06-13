@@ -1,9 +1,9 @@
 import { createStore } from "redux";
 
 const initialState = {
-    width: 2,
-    height: 2,
-    blackHoleCount: 1,
+    width: 10,
+    height: 10,
+    blackHoleCount: 10,
 };
 
 const reducer = (state = initialState, action) => {
