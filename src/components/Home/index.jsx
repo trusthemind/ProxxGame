@@ -8,16 +8,10 @@ function HomeScreen({setWidth,setHeight,setBlackHoleCount}) {
     return (
         <div id="container">
             <div id='matrix_size'>
-                <label htmlFor="width">
-                    <input type="number" id="width" required
-                        onInput={(e) => setWidth(e.target.value)}
-                        min={2} />
-                    <span>Width</span>
-                </label>
                 <label htmlFor="height">
                     <input type="number" id="height" required
                         onInput={(e) => setHeight(e.target.value)}
-                        min={2} />
+                        min={2} max={30}/>
                     <span>Height</span>
                 </label>
             </div>
